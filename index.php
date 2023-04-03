@@ -212,11 +212,7 @@
 
 
 </body>
-<footer>
-  <div class="footer-content">
-  <p>Vista mi pagina:  <a href="https://angelrocha.netlify.app/">Angel Rocha</a></p>
-  </div>
-</footer>
+
 
 
 </html>
