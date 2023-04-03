@@ -1,0 +1,104 @@
+#map {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  
+
+  /* Estilos para los botones de consulta */
+  input[type="submit"] {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+  }
+
+  /* Estilos para el botón de historial */
+  .btn-primary {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+  }
+
+  /* Estilos para el label y el input de ciudad */
+  label, input[type="text"] {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+  }
+
+  /* Estilos para el formulario */
+  form {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+
+
+.gm-style-iw-c {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,.3);
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    max-width: 250px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+@media screen and (max-width: 768px) {
+    #map {
+      height: 300px;
+    }
+    .btn-group {
+        display: block;
+      }
+    
+      .btn-group > button {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    
+      .form-group {
+        margin-bottom: 10px;
+      }
+      .footer-content {
+        max-width: 100%;
+      }
+  }
